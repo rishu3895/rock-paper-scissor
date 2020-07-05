@@ -1,0 +1,42 @@
+html{
+    background-color:beige;
+    color: black;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    margin:100px 0 100px 100px;
+}
+button{
+    height:100px;
+    width:100px;
+    margin:5px;
+    font-size: large;
+    background-color: bisque;
+}
+button:hover{
+    border:5px solid black;
+}
+.choices{
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: start;
+}
+.output-box, .output-result{
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+}
+div{
+    margin-left: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width:300px;
+
+}
